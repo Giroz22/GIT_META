@@ -1,0 +1,38 @@
+# Configuracion
+
+Comando para conocer la version de github
+
+- git --version
+
+Comandos para configurar git por primera vez:
+
+- Configural nombre de usuario:
+  git config --global user.name "Your name"
+
+- Configurar correo de usuario:
+  git config --global user.email "your@correo.com"
+
+Comando para ver las configuraciones de git:
+
+- git config --global user.name
+- git config --global user.email
+- git config --list
+
+Comando para eliminar la configuracion de git
+
+- rm ~/.gitconfig
+
+Comando para inicializar git en un directorio
+
+- git init
+
+Comando para ver el estado de los archivos
+
+- git status
+
+Pasos para crear una version de mi codigo
+
+1. Agregar los cambios
+   - git add .
+   - git add \*.js //Agregar todos los archivos .js
+   - git add index.html //Agregar un solo archivo
