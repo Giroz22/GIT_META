@@ -30,9 +30,18 @@ Comando para ver el estado de los archivos
 
 - git status
 
+Comando para ver todas las versiones de mi proyecto
+
+- git log //Detallado
+- git log --online //Info base
+
 Pasos para crear una version de mi codigo
 
 1. Agregar los cambios
-   - git add .
+
+   - git add . //Agrega todos
    - git add \*.js //Agregar todos los archivos .js
    - git add index.html //Agregar un solo archivo
+
+2. Comprometer los archivos
+   -git commit -m "Descripcion del commit"
