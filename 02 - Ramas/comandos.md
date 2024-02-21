@@ -16,4 +16,4 @@ $ git branch -d <nombre_de_la_rama>
 
 ### Comando para eliminar un archivo de git
 
-$ git rm --cached <ruta archivo a eliminar>
+$ git rm --cached <ruta_archivo_a_eliminar>
